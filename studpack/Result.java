@@ -44,6 +44,7 @@ public class Result extends Student implements Sports
 	public void displayTotal()
 	{
 		total = mark1 + mark2 + mark3 + grade;
+		System.out.println("Name: "+name);
 		System.out.println("Total: "+total);
 		System.out.println("Roll number: "+ rollno);
 	}

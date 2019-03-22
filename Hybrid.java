@@ -5,10 +5,10 @@ class Hybrid
     public static void main(String[] args) 
     {
         Result s1 = new Result("A", 1, 10, 10, 10);
-        Result s2 = new Result("A", 1, 10, 10, 10);
-        Result s3 = new Result("A", 1, 10, 10, 10);
-        Result s4 = new Result("A", 1, 10, 10, 10);
-        Result s5 = new Result("A", 1, 10, 10, 10);
+        Result s2 = new Result("B", 1, 10, 10, 10);
+        Result s3 = new Result("C", 1, 10, 10, 10);
+        Result s4 = new Result("D", 1, 10, 10, 10);
+        Result s5 = new Result("E", 1, 10, 10, 10);
         
         s1.display_grade();
         s1.displayTotal();

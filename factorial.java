@@ -14,7 +14,7 @@ class factorial
 			else
 			{
 				for(int i=1; i<=n; i++)
-				f *= i;
+					f *= i;
 				System.out.println("Factorial of "+n+" : "+f);
 			}
 		}
